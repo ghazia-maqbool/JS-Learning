@@ -80,6 +80,20 @@ let str2 = " ghazia"
 let str3 = str1 + str2
 console.log(str3); //hello ghazia
 
+
+"hello world" //string literal
+`hello world` //template literal
+`hello ${"world"}` //template literal or string interpolation
+//  string interpolation, template literals, string literal.
+let num11 = 100
+let num12 =100
+console.log(num11 + num12)
+//  sting + number -> "sdfsf" +number
+console.log("this is" + num1 + "the num 2 is" + num2 + 'our first qoute is "time is money" ')
+console.log(`this is ${num11} that is ${num12} "hello world"`); 
+
+
+
 console.log("1" + 2); //12
 console.log(1 + "2"); //"12"
 console.log("1" + "2"); //"12"
