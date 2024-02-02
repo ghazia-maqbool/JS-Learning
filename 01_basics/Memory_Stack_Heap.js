@@ -6,8 +6,8 @@
 //Primitive => String, Number, Null, Undefined, Symbol, Boolean, BigInt
 //Non-Primitive => Array, Object, Function
 
-let myYoutubename = "ghazia"
-let anothername = "ghaziamaqbool"
+let myYoutubename = "ghazia";
+let anothername = "ghaziamaqbool";
 
 console.log(myYoutubename);
 console.log(anothername);
@@ -16,14 +16,14 @@ console.log(myYoutubename === anothername); //false
 and anothername will save in another stack. copy is generated
 */
 
-let userOne ={
-    email:"user@google.com",
-}
-// this data is saved in heap and by refernce it is assigned 
+let userOne = {
+  email: "user@google.com",
+};
+// this data is saved in heap and by refernce it is assigned
 // to userOne and same in the case of userTwo
-let userTwo = userOne
+let userTwo = userOne;
 
-userTwo.email = "user2@google.com"
+userTwo.email = "user2@google.com";
 
 console.log(userOne.email); //user2@google.com
 console.log(userTwo.email); //user2@google.com
