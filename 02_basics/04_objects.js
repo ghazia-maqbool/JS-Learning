@@ -39,25 +39,25 @@ const obj4 = Object.assign({}, obj1, obj2); //merging two objects {}, it will cr
 console.log(obj4); //{ '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
 console.log(obj3); //{ '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
 
-const obj5 = {...obj1,...obj2} //merging two objects by spread operator
+const obj5 = { ...obj1, ...obj2 }; //merging two objects by spread operator
 console.log(obj5); //{ '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
 
 const users = [
-    {
-        id:1,
-        email:"ghazia@gmail.com"
-    },
-    {
-        id:1,
-        email:"ghazia@gmail.com"
-    },
-    {
-        id:1,
-        email:"ghazia@gmail.com"
-    },
-]
+  {
+    id: 1,
+    email: "ghazia@gmail.com",
+  },
+  {
+    id: 1,
+    email: "ghazia@gmail.com",
+  },
+  {
+    id: 1,
+    email: "ghazia@gmail.com",
+  },
+];
 
-users[1].email //accesing 
+users[1].email; //accesing
 console.log(youtubeUser);
 
 console.log(Object.keys(youtubeUser)); //["id", "name", "isLoggedIn"])
